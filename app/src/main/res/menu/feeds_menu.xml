@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mnuFree"
+        android:title="@string/freeApps"></item>
+
+    <item
+        android:id="@+id/mnuPaid"
+        android:title="@string/paidApps"></item>
+
+    <item
+        android:id="@+id/mnuSongs"
+        android:title="@string/songs"></item>
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search" />
+    <group
+        android:id="@+id/mgrpNumber"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/mnu10"
+            android:checked="true"
+            android:title="@string/top10" />
+        <item
+            android:id="@+id/mnu25"
+            android:title="@string/top25" />
+    </group>
+    <item
+        android:id="@+id/mnuRefresh"
+        android:title="@string/refresh" />
+
+</menu>

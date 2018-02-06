@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Apple RSS Feed</string>
+    <string name="freeApps">Free Apps</string>
+    <string name="paidApps">Paid Apps</string>
+    <string name="songs">Songs</string>
+    <string name="top10">Top 10</string>
+    <string name="top25">Top 25</string>
+    <string name="refresh">Refresh</string>
+</resources>
